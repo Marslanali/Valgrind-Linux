@@ -40,7 +40,7 @@ valgrind --version
 ```
 
 
-### compile Valgrind from source, compile and install
+### compile valgrind from source, compile and install
 
 **On Debian and Ubuntu:**
 
