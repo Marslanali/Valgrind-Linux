@@ -5,7 +5,7 @@ Using valgrind to find memory leaks and invalid memory use.
 
 There are two ways you can install Valgrind on linux.
 
-### Install pre-built Valgrind stable release
+### Install pre-built valgrind stable release
 
 **On Debian and Ubuntu:**
 
@@ -22,7 +22,7 @@ bzip2 -d valgrind-3.16.0.tar.bz2
 tar -xf valgrind-3.16.0.tar 
 ```
 
-Configure, Compile, and install it.
+Configure, compile, and install it.
 
 ```
 cd valgrind-3.16.0
