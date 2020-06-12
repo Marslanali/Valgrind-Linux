@@ -9,13 +9,13 @@ There are two ways you can install Valgrind on linux.
 
 **On Debian and Ubuntu:**
 
-Download stable release Valgrind 3.16.0.
+Download stable release valgrind 3.16.0.
 
 ```
 https://www.valgrind.org/downloads/current.html
 ```
 
-Decompress and untar Valgrind 3.16.0 using bzip2.
+Decompress and untar valgrind 3.16.0 using bzip2.
 
 ```
 bzip2 -d valgrind-3.16.0.tar.bz2 
@@ -31,9 +31,9 @@ make
 sudo make install
 ```
 
-By default this will install Valgrind binaries in /usr/local/bin and libs in /usr/local/lib.
+By default this will install valgrind binaries in /usr/local/bin and libs in /usr/local/lib.
 
-To check version and test whether Valgrind installed correctly.
+To check version and test whether valgrind installed correctly.
 
 ```
 valgrind --version
@@ -72,8 +72,7 @@ gcc -g -o example example.c
 ./example
 ```
 
-Finding Memory Leaks With Valgrind
-
+Finding memory leaks with valgrind.
 
 
 ```
@@ -109,4 +108,4 @@ This will result in following information about the program.
 ==10745== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
 ```
 
-### Finding Invalid Pointer Use With Valgrind
+### Finding invalid pointer use with valgrind
