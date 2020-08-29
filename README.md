@@ -7,8 +7,6 @@ There are two ways you can install Valgrind on linux.
 
 - ### Install pre-built valgrind stable release
 
-**On Debian and Ubuntu:**
-
 Download stable release valgrind 3.16.0.
 
 ```
@@ -39,10 +37,7 @@ To check version and test whether valgrind installed correctly.
 valgrind --version
 ```
 
-
 - ### compile valgrind from source, compile and install
-
-**On Debian and Ubuntu:**
 
 Download source code.
 
