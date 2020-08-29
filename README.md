@@ -1,7 +1,7 @@
 # valgrind-memory-debugging-tool-linux
 Using valgrind to find memory leaks and invalid memory use.
 
-### Valgrind installation
+## Valgrind installation
 
 There are two ways you can install Valgrind on linux.
 
@@ -62,7 +62,7 @@ make
 sudo make instal
 ```
 
-### Example C Program with valgrind
+## Example C Program with valgrind
 
 For demonstration, consider following C code.
 
@@ -117,8 +117,7 @@ This will result in following information about the program.
 ==11587== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
 ```
 
-### Finding invalid pointer use with valgrind
-
+## Finding invalid pointer use with valgrind
 
 Valgrind can also find the use of invalid heap memory using the memcheck tool. For instance, if you allocate an array with malloc or new and then try to access a location past the end of the array.
 
